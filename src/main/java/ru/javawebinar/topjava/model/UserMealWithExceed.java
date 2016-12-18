@@ -29,4 +29,14 @@ public class UserMealWithExceed {
     public int getCalories() {
         return calories;
     }
+
+    @Override
+    public String toString() {
+        return "UserMealWithExceed{" +
+                "dateTime=" + dateTime +
+                ", description='" + description + '\'' +
+                ", calories=" + calories +
+                ", isExceed=" + isExceed +
+                '}';
+    }
 }
